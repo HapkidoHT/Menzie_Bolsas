@@ -323,6 +323,35 @@ section h1 {
   }
 }
 
+/* Dentro da regra de estilo para telas menores (max-width: 767px) */
+@media only screen and (max-width: 767px) {
+  header {
+    display: block; /* Altere o display para 'block' em telas menores */
+  }
+
+  .cabeçalho-link {
+    display: none; /* Oculta o menu padrão em telas menores */
+    flex-direction: column;
+    position: absolute;
+    top: 80px; /* Ajuste conforme necessário para evitar sobreposição com o cabeçalho */
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 999;
+  }
+
+  .cabeçalho-link a {
+    padding: 15px;
+    text-align: center;
+    color: #111;
+    display: block;
+  }
+
+  .icon {
+    display: block; /* Exibe o ícone de hambúrguer em telas menores */
+  }
+}
+
 /* Estilo para telas menores, como dispositivos móveis */
 @media only screen and (max-width: 767px) {
   .background {
@@ -340,10 +369,15 @@ section h1 {
 
   .Meio h1 {
     font-size: 2.5rem;
+    letter-spacing: 0.1rem; /* Ajuste o valor conforme necessário */
   }
 
   .Meio button {
     padding: 1rem 2rem;
+  }
+
+  .text-cta h4 {
+    font-size: 2rem;
   }
 
   section {
