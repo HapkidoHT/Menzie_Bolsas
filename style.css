@@ -280,3 +280,110 @@ section h1 {
 .social-icon:hover {
   background-color: #368ee7;
 }
+/* Adicione este código ao final do seu arquivo CSS */
+
+/* Estilo padrão */
+@media only screen and (min-width: 768px) {
+  /* Aqui estão suas regras de estilo existentes para telas maiores */
+  .background {
+    background-size: 100% 100%;
+  }
+
+  header {
+    padding: 14px 14%;
+  }
+
+  .Meio {
+    padding: 7rem 0 0 8.5rem;
+  }
+
+  .Container-card-1 {
+    padding-top: 2rem;
+  }
+
+  .cta {
+    height: 60vh;
+  }
+
+  .text-cta {
+    padding-left: 5rem;
+  }
+
+  .Container-roupas {
+    margin-top: 3rem;
+  }
+
+  .Marcas {
+    margin-top: 10rem;
+  }
+
+  #Contato {
+    margin-top: 5rem;
+    padding: 8rem;
+  }
+}
+
+/* Estilo para telas menores, como dispositivos móveis */
+@media only screen and (max-width: 767px) {
+  .background {
+    background-size: cover;
+  }
+
+  header {
+    padding: 14px 5%;
+  }
+
+  .Meio {
+    padding: 4rem 5%;
+    text-align: center;
+  }
+
+  .Meio h1 {
+    font-size: 2.5rem;
+  }
+
+  .Meio button {
+    padding: 1rem 2rem;
+  }
+
+  section {
+    padding-top: 5rem;
+  }
+
+  .Container-card-1 {
+    padding-top: 1rem;
+  }
+
+  .cards img {
+    width: 100%;
+  }
+
+  .cta {
+    height: 40vh;
+  }
+
+  .text-cta {
+    padding: 0 2rem;
+  }
+
+  .text-cta h4 {
+    font-size: 2rem;
+  }
+
+  .Container-roupas img {
+    width: 100%;
+  }
+
+  .roupa img {
+    width: 100%;
+  }
+
+  .Marcas {
+    margin-top: 5rem;
+  }
+
+  #Contato {
+    margin-top: 3rem;
+    padding: 4rem 5%;
+  }
+}
